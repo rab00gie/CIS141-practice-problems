@@ -1,5 +1,6 @@
 '''# 3. Create a program that prompts for the side lengths of a triangle and computes the area using Heron's formula.
 (https://en.wikipedia.org/wiki/Heron%27s_formula)'''
+
 # Get the side lengths from the user
 a = float(input("Enter side a: "))
 b = float(input("Enter side b: "))
