@@ -1,0 +1,7 @@
+#Prompt the user for a word. Then, prompt the user forhow many times they'd like that word repeated. Use the skills you learned in this module to print the word the correct number of times.
+
+word = input("Enter a word. ")
+
+times = int(input("How many times would you like the word repeated. "))
+
+print((word+" ") * times)
