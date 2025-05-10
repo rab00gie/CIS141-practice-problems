@@ -1,14 +1,16 @@
+# Ask the user for a positive integer
+n = int(input("Enter a positive integer: "))
 
-n = int(input("Enter a number: "))
-
-
+# Initialize sum and counter
 total = 0
 count = 1
 
-
+# Use a while loop to add numbers from 1 to n
 while count <= n:
     total = total + count
     count = count + 1
 
-
+# Print the result
 print(f"The sum of all numbers from 1 to {n} is {total}.")
+
+
