@@ -1,0 +1,4 @@
+my_string = "Olympic College"
+
+for char in my_string:
+    print(char.upper())
