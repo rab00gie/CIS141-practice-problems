@@ -1,0 +1,16 @@
+'''#4.  Create a list of integers. 
+Write code that counts how many numbers 
+are positive and how many are negative, then print both counts.'''
+
+numbers = [5, -3, 9, 0, -1, -7, 8, 2]
+positive_count = 0
+negative_count = 0
+
+for num in numbers:
+    if num > 0:
+        positive_count += 1
+    elif num < 0:
+        negative_count += 1
+
+print("Positive numbers:", positive_count)
+print("Negative numbers:", negative_count)
