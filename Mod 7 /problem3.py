@@ -22,7 +22,7 @@ def type_advantage(attacker, defender):
     else:
         return "Unknown Matchup"
 
-print("Testing type_advantage...")
+
 print(type_advantage("Water", "Fire"))       
 print(type_advantage("Fire", "Water"))       
 print(type_advantage("Electric", "Grass"))   
